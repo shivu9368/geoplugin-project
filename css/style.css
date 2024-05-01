@@ -1,0 +1,928 @@
+/********** Template CSS **********/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'verdanabold';
+    font-weight: 500;
+}
+
+body {
+    font-family: 'verdana';
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    background-color: #f3eee3;
+}
+
+/* my css// */
+/* header css */
+.navbar-btn {
+    background-color: #008000;
+    color: #fff;
+    padding: 7px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: 0px 5px 5px 0px #6E6A6E;
+}
+
+.nav-span,
+.nav-notification {
+    color: #008000;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.nav-notification {
+    color: #A3916A;
+}
+
+.nav-line-hover::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #008000;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in-out .35s;
+}
+
+.nav-line:hover .nav-line-hover::after {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('/img/humburgur.svg');
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* //accont setting// */
+#account-setting .bg-white,
+.chart-radius {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.custom-spacing {
+    padding: 50px 0 40px;
+}
+
+#account-setting h1 {
+    font-size: 20px;
+}
+
+.custom-hr {
+    color: #DBDBDB;
+}
+
+.details .current-active {
+    font-size: 12px;
+}
+
+.dashboard-input input {
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    width: 70%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.btn-copy,
+.delete-btn {
+    border: 1px solid #008000;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 11px 15px;
+}
+
+.btn-copy span {
+    color: #008000;
+    font-size: 14px;
+}
+
+.delete-btn span {
+    color: #FB5343;
+    font-size: 14px;
+}
+
+.delete-btn {
+    border: 1px solid #FB5343;
+}
+
+.details .custom-hr {
+    margin: 2rem 0;
+}
+
+#account-setting .api-key {
+    font-size: 18px;
+    font-weight: 700;
+    color: #757575;
+}
+
+.dashboard span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.details {
+    max-width: 758px;
+    width: 48%;
+}
+
+.container {
+    max-width: 1720px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.details p {
+    font-size: 20px;
+}
+
+.api-use {
+    font-size: 20px;
+}
+
+/* <!-- chart bar start --> */
+
+
+/* //new dashboard css// */
+.profile-details {
+    background-color: #7D6340;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.detail-info {
+    font-size: 14px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.custom-style {
+    color: #757575;
+}
+
+.table-custom table thead tr th {
+    width: 20%;
+    padding: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-custom table tbody tr td {
+    padding: 16px;
+    text-align: center;
+}
+
+.table-custom table thead tr {
+    background-color: #7D6340;
+}
+
+.table-custom table thead tr th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.table-custom table thead tr th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.table-custom table tbody tr:last-child td {
+    border: none;
+}
+
+/* ///subscription ccs/ */
+.navbar-btn.Generate-btn {
+    min-width: 180px;
+}
+
+.Subscription-plan {
+    font-size: 30px;
+}
+
+.current-plan {
+    background-color: #008000;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    margin-top: -60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 30px;
+}
+
+.pricing .box {
+    background: #fff;
+    padding: 30px 10px;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.custom-list-plan {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list-plan li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.custom-list-plan li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-image: url('/img/wright.svg');
+    background-repeat: no-repeat;
+}
+
+
+.custom-list-plan li span {
+    display: block;
+    padding-left: 15px;
+}
+
+
+.pricing h3 {
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #0A0D12;
+}
+
+.pricing h4 {
+    font-size: 48px;
+    color: #37517e;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 25px;
+}
+
+.pricing h4 span {
+    color: #0E151B;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pricing h4 .month {
+    font-size: 16px;
+    color: #757575;
+}
+
+.pricing ul {
+    padding: 0 20px;
+    list-style: none;
+    color: #999;
+    line-height: 20px;
+}
+
+.pricing ul li {
+    padding: 0 0 12px 0px;
+    position: relative;
+}
+
+.pricing ul i {
+    color: #28a745;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.pricing .buy-btn {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    color: #47b2e4;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+}
+
+.billed-monthly {
+    background-color: #F3EEE3;
+    text-align: center;
+    display: block;
+    max-width: 140px;
+    margin: 0 auto;
+    padding: 8px 0;
+    border-radius: 5px;
+    color: #7D6340;
+    font-size: 12px;
+}
+
+#setting-dashboard-page .custom-hr {
+    margin: 20px 15px;
+}
+
+.btn-plan {
+    display: block;
+    background-color: #008000;
+    border: unset;
+    width: 100%;
+    padding: 13px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.our-subsciption-menu {
+    width: 100%;
+    max-width: 230px;
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    padding-inline-start: 0;
+    padding: 4px 0;
+    border-radius: 5px;
+}
+
+.our-subsciption-menu li {
+    margin: 0 10px;
+}
+
+.our-subsciption-menu li button {
+    background-color: #ffffff;
+    color: #A3916A;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    transition: all ease-in-out .35s;
+}
+
+.our-subsciption-menu li button.active {
+    background-color: #008000;
+    color: #ffffff;
+}
+
+.navbar-nav-list {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.pricing p {
+    font-size: 14px;
+}
+
+.custom-list-plan li {
+    font-size: 14px;
+}
+
+/* //modal// */
+.modal-custom .modal-header .btn-close {
+    padding: 3px;
+}
+
+.modal-custom .btn-close {
+    border: 1px solid #000000;
+}
+
+.modal-custom .btn {
+    width: 100%;
+    padding: 12px 0;
+}
+
+.modal-custom .modal-dialog {
+    max-width: 650px;
+}
+
+.modal-custom .modal-content {
+    border-radius: 10px;
+}
+
+.modal-custom .modal-header {
+    border-bottom: 0;
+}
+
+.modal-custom .style-text {
+    color: #606060;
+    font-size: 12px;
+}
+
+.modal-custom input::placeholder {
+    font-size: 16px;
+    font-weight: 700;
+    color: #757575;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #008000;
+    border-radius: 5px;
+}
+
+.btn-save-change {
+    border: 1px solid #008000;
+    border-radius: 5px;
+    color: #008000;
+}
+
+.btn-green:hover {
+    color: white;
+}
+
+.btn-save-change:hover {
+    color: #008000;
+}
+
+.modal-custom .form-control {
+    padding: 14px 15px;
+}
+
+.modal-custom .modal-header {
+    padding: 30px 30px 16px;
+}
+
+.modal-custom .modal-body {
+    padding: 16px 30px;
+}
+
+.modal-custom .modal-footer {
+    padding: 0px 30px 30px;
+}
+
+.modal-custom .custom-hr {
+    margin: 0 25px !important;
+}
+
+.modal-custom .modal-footer {
+    border-top: 0;
+}
+
+.card-svg {
+    top: 63%;
+    transform: translatey(-50%);
+    left: 11px;
+}
+
+/* .form-field-text{
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+} */
+
+.form-field-text .item-span {
+    background-color: #CFF5E5;
+    color: #008000;
+    border-radius: 5px;
+    padding: 3px 4px;
+
+}
+
+.form-field-text .item-value {
+    font-size: 20px;
+}
+
+.form-field-text .viewplan {
+    color: #008000;
+    position: relative;
+}
+
+.form-field-text .viewplan::before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #008000;
+    width: 82%;
+    height: 22px;
+}
+
+.form-field-text label {
+    border: 2px solid #DBDBDB;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/* 30 april 11.00pm */
+.form-field-text input:checked+label {
+    border: 2px solid green;
+}
+
+.form-field-text input {
+    position: absolute;
+    left: -9999px;
+    opacity: 0
+}
+
+.form-field-text label .radio-check {
+    position: absolute;
+    right: 20px;
+    bottom: 29px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #DBDBDB;
+}
+
+.form-field-text input:checked+label .radio-check {
+    background: green;
+    color: #fff;
+    border-color: #008000;
+}
+
+.form-field-text input:checked+label .radio-check:after {
+    background-image: url('data:image/svg+xml,<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.41586 0.938117L4.25707 6.08072L1.89271 3.72369C1.53663 3.36872 0.959188 3.36866 0.603045 3.72363C0.246902 4.07866 0.246902 4.65424 0.603045 5.00927L3.61221 8.00915C3.78323 8.17963 4.01516 8.27545 4.25701 8.27545C4.25707 8.27545 4.25701 8.27545 4.25707 8.27545C4.49892 8.27545 4.73085 8.17963 4.90187 8.00921L10.7055 2.22381C11.0617 1.86878 11.0617 1.29321 10.7055 0.938178C10.3494 0.583148 9.772 0.583087 9.41586 0.938117Z" fill="white"/></svg>');
+    position: relative;
+    top: -3px;
+    left: 2px;
+    width: 15px;
+    background-size: 15px;
+    display: block;
+    content: '';
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25px;
+}
+
+.form-field-text .viewplan {
+    color: #008000;
+}
+
+.profile-details-modal.modal-custom .modal-body {
+    padding: 16px 60px;
+}
+
+.plan-subs {
+    max-width: 509px;
+    width: 100%;
+    background-color: #008000;
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+    padding: 7px 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.form-field-text .value {
+    letter-spacing: 3px;
+}
+
+.form-field-text .item-billed {
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.plan-subs-current {
+    margin: 0 28px;
+}
+
+.modal-custom .modal-dialog {
+    max-width: 560px;
+}
+
+@media screen and (max-width: 1680px) {
+    .dashboard-input input {
+        width: 68%;
+    }
+
+    .details p {
+        font-size: 18px;
+    }
+
+    .btn-copy span {
+        font-size: 12px;
+    }
+
+    .delete-btn span {
+        font-size: 12px;
+    }
+
+    #account-setting h1 {
+        font-size: 17px;
+    }
+
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .api-use {
+        font-size: 16px;
+    }
+
+    /* //26-april 10.38// */
+    .navbar-btn {
+        font-size: 14px;
+    }
+
+    .pricing h4 span {
+        font-size: 26px;
+    }
+
+    .btn-plan {
+        font-size: 14px;
+    }
+
+    /* //modal// */
+    .modal-custom .modal-header h5 {
+        font-size: 14px;
+    }
+
+    .form-field-text .plan1 {
+        font-size: 14px;
+    }
+
+    .form-field-text .item-value {
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 1440px) {
+    .dashboard-input input {
+        width: 64%;
+    }
+
+    .details p,
+    #account-setting .api-key {
+        font-size: 14px;
+    }
+
+    .navbar-btn {
+        font-size: 14px;
+    }
+
+    .dashboard-input input {
+        padding: 8px;
+    }
+
+    .btn-copy,
+    .delete-btn {
+        padding: 7px 15px;
+    }
+
+    /* //new-dasboard// */
+    .api-use {
+        font-size: 14px;
+    }
+
+    .detail-info {
+        font-size: 12px;
+    }
+
+    .nav-span,
+    .nav-notification {
+        font-size: 14px;
+    }
+
+    .table-custom table thead tr th {
+        padding: 12px;
+    }
+
+    .custom-list-plan li {
+        font-size: 12px;
+    }
+
+    .pricing p {
+        font-size: 12px;
+    }
+
+    .form-field-text .item-value {
+        font-size: 14px;
+    }
+
+    /* //modal// */
+    .py-xl-3 {
+        padding-top: .50rem !important;
+        padding-bottom: .50rem !important;
+    }
+
+    .form-field-text label .radio-check {
+        bottom: 19px;
+
+    }
+
+    .plan-subs {
+        max-width: 390px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .details p,
+    #account-setting .api-key {
+        font-size: 12px;
+    }
+
+    .dashboard-input input {
+        width: 59%;
+        font-size: 12px;
+    }
+
+    .btn-copy,
+    .delete-btn {
+        padding: 5px 15px;
+    }
+
+    .navbar-btn {
+        font-size: 12px;
+    }
+    .dashboard span {
+        font-size: 12px;
+    }
+
+    /* //new-dasboard// */
+    .nav-span,
+    .nav-notification {
+        font-size: 12px;
+    }
+    .table-custom table thead tr th {
+        padding: 10px;
+    }
+
+    .our-subsciption-menu {
+        max-width: 197px;
+    }
+
+    .our-subsciption-menu li button {
+        font-size: 12px;
+    }
+
+    .pricing h4 span {
+        font-size: 16px;
+    }
+
+    .pricing h4 .month {
+        font-size: 12px;
+        color: #757575;
+    }
+
+    .pricing h4 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    /* //30april// */
+    .profile-details-modal.modal-custom .modal-body {
+        padding: 16px 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-btn {
+        font-size: 12px;
+    }
+
+    #account-setting h1 {
+        font-size: 14px;
+    }
+
+    .dashboard-input input {
+        width: 50%;
+        font-size: 12px;
+    }
+
+    /* //modal// */
+    .form-field-text .item-value {
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* //subscription// */
+    .details {
+        width: 100%;
+    }
+
+    #account-setting h1 {
+        font-size: 18px;
+    }
+
+    .details p,
+    #account-setting .api-key {
+        font-size: 14px;
+    }
+
+    .dashboard-input {
+        flex-wrap: wrap;
+    }
+
+    .dashboard-input input {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .btn-copy,
+    .delete-btn {
+        min-width: 138px;
+        margin: 10px 8px 0 0 !important;
+    }
+
+    .order-custom {
+        order: 1;
+
+    }
+
+    .dashboard {
+        flex-wrap: wrap;
+    }
+
+    .navbar-btn.Generate-btn {
+        width: 100%;
+    }
+
+    .dashboard span {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .navbar-nav-list {
+        flex-wrap: wrap;
+    }
+
+    .navbar-nav-list .nav-item {
+        width: 100%;
+    }
+
+    .table-custom table thead tr th {
+        font-size: 10px;
+    }
+
+    .pricing h4 span {
+        font-size: 40px;
+    }
+
+    .pricing p {
+        font-size: 14px;
+    }
+
+    .custom-list-plan li {
+        font-size: 14px;
+    }
+
+    .modal-custom .modal-header {
+        padding: 30px 15px 16px;
+    }
+
+    .modal-custom .modal-body {
+        padding: 16px 15px;
+    }
+
+    .modal-custom .modal-footer {
+        padding: 0px 15px 30px;
+    }
+
+    /* //modal// */
+    .profile-details-modal.modal-custom .modal-body {
+        padding: 16px 15px;
+    }
+
+    .plan-subs {
+        max-width: 292px;
+    }
+
+    .form-field-text label .radio-check {
+        bottom: 18px;
+    }
+}
