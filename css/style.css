@@ -447,12 +447,14 @@ a {
     color: #fff;
     background-color: #008000;
     border-radius: 5px;
+    width:100%;
 }
 
-.btn-save-change {
+.btn-save-change, .btn-back{
     border: 1px solid #008000;
     border-radius: 5px;
     color: #008000;
+    width:100%;
 }
 
 .btn-green:hover {
@@ -612,6 +614,10 @@ a {
 .modal-custom .modal-dialog {
     max-width: 560px;
 }
+.py-30{
+    padding-top:30px;
+    padding-bottom:30px;
+}
 
 @media screen and (max-width: 1680px) {
     .dashboard-input input {
@@ -738,6 +744,11 @@ a {
 
     .plan-subs {
         max-width: 390px;
+    }
+    /* //modal// */
+    .modal-custom .btn {
+        width: 100%;
+        padding: 7px 0;
     }
 }
 
